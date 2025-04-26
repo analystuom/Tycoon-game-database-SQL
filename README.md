@@ -15,7 +15,7 @@ The game simulates the experience of university life with academic, financial, a
 
 ## Game Board Map
 
-![University Tycoon](https://github.com/user-attachments/assets/43b0faf3-5757-43a4-b663-ef2d31669ae2)
+![University Tycoon](https://github.com/user-attachments/assets/b5c48394-d7b5-403d-8658-add5e9e8e6a5)
 
 The University Tycoon game is played on a board with 20 spaces arranged in a square. Players move clockwise around the board starting from "Welcome Week" (Space 1). The board includes:
 
