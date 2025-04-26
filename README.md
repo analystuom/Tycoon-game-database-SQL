@@ -1,3 +1,18 @@
+## 🎲🎩💳 Project Overview
+
+This project implements a relational database system for the "University Tycoon" board game using SQLite. The database tracks game state, player moves, and enforces game rules through SQL triggers. Players move around the board, buy university buildings, charge tuition fees, and interact with special spaces that can award or deduct credits.
+
+
+## Game Description
+
+University Tycoon is a board game where players move around a board representing a university campus. The objective is to collect as many credits as possible by:
+- Buying university buildings
+- Charging tuition fees to other players who land on your buildings
+- Collecting credits from special spaces (like RAG events)
+- Avoiding penalties (like hearings or suspension)
+
+The game simulates the experience of university life with academic, financial, and social elements integrated into the gameplay.
+
 ## Game Board Map
 
 ![University Tycoon](https://github.com/user-attachments/assets/43b0faf3-5757-43a4-b663-ef2d31669ae2)
@@ -23,21 +38,6 @@ The University Tycoon game is played on a board with 20 spaces arranged in a squ
   - You're Suspended (18): Player is moved to Suspension (space 8)
 
 The board features a high-contrast color scheme with associated shapes for accessibility. Player tokens appear on the inside edge of spaces to indicate their location, and in the top-right corner of building spaces to indicate ownership.## Game Board Map
-
-
-## Overview
-
-This project implements a relational database system for the "University Tycoon" board game using SQLite. The database tracks game state, player moves, and enforces game rules through SQL triggers. Players move around the board, buy university buildings, charge tuition fees, and interact with special spaces that can award or deduct credits.
-
-## Game Description
-
-University Tycoon is a board game where players move around a board representing a university campus. The objective is to collect as many credits as possible by:
-- Buying university buildings
-- Charging tuition fees to other players who land on your buildings
-- Collecting credits from special spaces (like RAG events)
-- Avoiding penalties (like hearings or suspension)
-
-The game simulates the experience of university life with academic, financial, and social elements integrated into the gameplay.
 
 ## Database Structure
 
