@@ -1,8 +1,6 @@
 ## Game Board Map
 
-![University Tycoon Game Board](board_map.png)
-
-*Note: Place the game board image file in your repository and update the image path above if needed.*
+![University Tycoon](https://github.com/user-attachments/assets/43b0faf3-5757-43a4-b663-ef2d31669ae2)
 
 The University Tycoon game is played on a board with 20 spaces arranged in a square. Players move clockwise around the board starting from "Welcome Week" (Space 1). The board includes:
 
@@ -26,31 +24,6 @@ The University Tycoon game is played on a board with 20 spaces arranged in a squ
 
 The board features a high-contrast color scheme with associated shapes for accessibility. Player tokens appear on the inside edge of spaces to indicate their location, and in the top-right corner of building spaces to indicate ownership.## Game Board Map
 
-![University Tycoon Game Board](board_map.png)
-
-*Note: Place the game board image file in your repository and update the image path above if needed.*
-
-The University Tycoon game is played on a board with 20 spaces arranged in a square. Players move clockwise around the board starting from "Welcome Week" (Space 1). The board includes:
-
-- **Buildings (purchasable spaces):**
-  - Green (Triangle): Kilburn (2), IT (3) - 15cr tuition fee, 30cr price
-  - Orange (Square): Uni Place (5), AMBS (6) - 25cr tuition fee, 50cr price
-  - Blue (Circle): Crawford (9), Sugden (10) - 30cr tuition fee, 60cr price
-  - Brown (Diamond): Shopping Precinct (12), MECD (13) - 35cr tuition fee, 70cr price
-  - Grey (Cross): Library (15), Sam Alex (16) - 40cr tuition fee, 80cr price
-  - Black (Ring): Museum (19), Whitworth Hall (20) - 50cr tuition fee, 100cr price
-
-- **Special spaces:**
-  - Welcome Week (1): Awarded 100cr when landing on or passing
-  - Hearing 1 (4): Fined 20cr for academic malpractice
-  - RAG 1 (7): Awarded 15cr for winning a fancy dress competition
-  - Visitor/Suspension (8): Either visiting or serving suspension
-  - Ali G (11): Free resting space
-  - RAG 2 (14): Give all other players 10cr (bursary sharing)
-  - Hearing 2 (17): Fined 25cr for rent arrears
-  - You're Suspended (18): Player is moved to Suspension (space 8)
-
-The board features a high-contrast color scheme with associated shapes for accessibility. Player tokens appear on the inside edge of spaces to indicate their location, and in the top-right corner of building spaces to indicate ownership.# University Tycoon Database Project
 
 ## Overview
 
@@ -70,9 +43,7 @@ The game simulates the experience of university life with academic, financial, a
 
 ### Entity Relationship Diagram
 
-![University Tycoon ER Diagram](er_diagram.png)
-
-*Note: Place your ER diagram image file in your repository and update the image path above if needed.*
+![ER Diagram](https://github.com/user-attachments/assets/1cfe91ab-1a98-4b53-b825-5ab51648b13a)
 
 The ER diagram above shows the relationships between the entities in the University Tycoon database:
 - **Player**: Contains player information including credit balance and suspension status
@@ -91,24 +62,6 @@ Key relationships:
 - Spaces are recorded in the Audit Log during moves
 
 The diagram uses crow's foot notation to represent relationship cardinalities between entities.
-
-1. **token**
-   - Stores the game tokens players can choose
-
-2. **player**
-   - Stores information about each player including name, credit balance, token, current position, and suspension status
-
-3. **special**
-   - Stores information about special spaces on the board including name, description, and color
-
-4. **building**
-   - Stores information about purchasable buildings including name, tuition fee, price, color, shape, and owner
-
-5. **space**
-   - Maps spaces on the board to either buildings or special spaces
-
-6. **audit_log**
-   - Tracks all player moves and game state changes including round number, player ID, space ID, credit balances, and suspension status
 
 ### Views
 
